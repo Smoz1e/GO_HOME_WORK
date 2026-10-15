@@ -1,0 +1,1 @@
+module gitlab.ozon.dev/go/classrom

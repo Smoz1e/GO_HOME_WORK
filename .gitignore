@@ -1,0 +1,12 @@
+.DS_Store
+tasks.json
+.tasks-*.tmp
+/cli
+/cli.exe
+/HW1/cli
+/HW1/cli.exe
+/HW1/cmd/cli/cli
+/HW1/cmd/cli/cli.exe
+*.test
+*.test.exe
+coverage.out
