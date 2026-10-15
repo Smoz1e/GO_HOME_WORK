@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package product.v1;
+
+option go_package = "gitlab.ozon.dev/go/classrom/HW2/gen/product/v1;productv1";
+
+service ProductService {
+  rpc GetProduct(GetProductRequest) returns (GetProductResponse);
+  rpc ListProducts(ListProductsRequest) returns (ListProductsResponse);
+}
+
+message GetProductRequest {
+  int64 sku = 1;
+}
+
+message GetProductResponse {
+  int64 sku = 1;
+  string name = 2;
+  int32 price = 3;
+}
+
+message ListProductsRequest {
+  int32 page = 1;
+  int32 limit = 2;
+}
+
+message Product {
+  int64 sku = 1;
+  string name = 2;
+  int32 price = 3;
+}
+
+message ListProductsResponse {
+  repeated Product products = 1;
+  int32 total = 2;
+  int32 total_pages = 3;
+  int32 page = 4;
+}

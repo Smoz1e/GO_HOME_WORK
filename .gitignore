@@ -7,6 +7,14 @@ tasks.json
 /HW1/cli.exe
 /HW1/cmd/cli/cli
 /HW1/cmd/cli/cli.exe
+/HW2/cart
+/HW2/cart.exe
+/HW2/product-service
+/HW2/product-service.exe
+/HW2/cmd/cart/cart
+/HW2/cmd/cart/cart.exe
+/HW2/cmd/product-service/product-service
+/HW2/cmd/product-service/product-service.exe
 *.test
 *.test.exe
 coverage.out
