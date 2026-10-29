@@ -15,6 +15,14 @@ tasks.json
 /HW2/cmd/cart/cart.exe
 /HW2/cmd/product-service/product-service
 /HW2/cmd/product-service/product-service.exe
+/HW3/cart
+/HW3/cart.exe
+/HW3/product-service
+/HW3/product-service.exe
+/HW3/cmd/cart/cart
+/HW3/cmd/cart/cart.exe
+/HW3/cmd/product-service/product-service
+/HW3/cmd/product-service/product-service.exe
 *.test
 *.test.exe
 coverage.out
